@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|solutionrelative:server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\refreshtokeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\entities\\refreshtokeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\refreshtokeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|solutionrelative:server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,28 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
               "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAIwHUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwIkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T05:58:34.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IUserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "RelativeToolTip": "ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,21 +65,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\RefreshToken.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\RefreshToken.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\RefreshToken.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\RefreshToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:48:25.748Z"
+              "WhenOpened": "2025-05-07T06:48:25.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,27 +88,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RefreshTokenInfo.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
               "RelativeToolTip": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:44:30.745Z"
+              "WhenOpened": "2025-05-07T06:44:30.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Server\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:25:35.305Z"
+              "WhenOpened": "2025-05-07T06:25:35.305Z",
+              "EditorCaption": ""
             }
           ]
         }

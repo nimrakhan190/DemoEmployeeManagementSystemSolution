@@ -133,6 +133,10 @@ namespace ServerLibrary.Repositories.Implementations
 
             var updateRefreshToken = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.UserId == user.Id);
             if (updateRefreshToken is null) return new LoginResponse(false, "Refresh token colud not be generated because user has not signed in");
+
+            updateRefreshToken.Token = refreshToken;
+            await appDbContext.SaveChangesAsync();
+            return new LoginResponse(true, "Token refreshed successfully", jwtToken, refreshToken);
         }
     }
 }

@@ -55,8 +55,7 @@
               "RelativeToolTip": "Client\\Pages\\ContentPages\\HomePage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T09:18:11.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T09:18:11.486Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Client\\Pages\\AccountPages\\LoginPage.razor",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T02:39:12.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T02:39:12.067Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Client\\Pages\\AccountPages\\RegisterPage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T01:43:53.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T01:43:53.14Z"
             }
           ]
         }

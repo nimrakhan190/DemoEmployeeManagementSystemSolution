@@ -1,50 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\departmentpages\\generaldepartmentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\departmentpages\\generaldepartmentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\applicationstates\\departmentstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\applicationstates\\departmentstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\profiledropdown.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\administrationpages\\tablebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\administrationpages\\tablebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\accountpages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\accountpages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\accountpages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\accountpages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,150 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GeneralDepartmentPage.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\DepartmentPages\\GeneralDepartmentPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\DepartmentPages\\GeneralDepartmentPage.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\DepartmentPages\\GeneralDepartmentPage.razor",
-              "RelativeToolTip": "Client\\Pages\\DepartmentPages\\GeneralDepartmentPage.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAACRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T06:44:12.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T06:07:44.146Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Client\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Client\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T19:01:19.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentState.cs",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\ApplicationStates\\DepartmentState.cs",
-              "RelativeDocumentMoniker": "Client\\ApplicationStates\\DepartmentState.cs",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\ApplicationStates\\DepartmentState.cs",
-              "RelativeToolTip": "Client\\ApplicationStates\\DepartmentState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:59:34.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Client",
-              "DocumentMoniker": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
-              "RelativeDocumentMoniker": "Client\\Client.csproj",
-              "ToolTip": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
-              "RelativeToolTip": "Client\\Client.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T18:35:50.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfileDropDown.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "RelativeToolTip": "Client\\Pages\\OtherPages\\ProfileDropDown.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T12:38:58.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Client\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Client\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T10:13:51.41Z",
+              "WhenOpened": "2025-05-26T11:02:01.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAGMAAAAAAAAAAADwv3EAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:46:38.576Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TableBanner.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AdministrationPages\\TableBanner.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\AdministrationPages\\TableBanner.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AdministrationPages\\TableBanner.razor",
-              "RelativeToolTip": "Client\\Pages\\AdministrationPages\\TableBanner.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T12:26:00.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomePage.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T09:18:11.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginPage.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AccountPages\\LoginPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\AccountPages\\LoginPage.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AccountPages\\LoginPage.razor",
-              "RelativeToolTip": "Client\\Pages\\AccountPages\\LoginPage.razor",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T02:39:12.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterPage.razor",
-              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AccountPages\\RegisterPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\AccountPages\\RegisterPage.razor",
-              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\AccountPages\\RegisterPage.razor",
-              "RelativeToolTip": "Client\\Pages\\AccountPages\\RegisterPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T01:43:53.14Z"
             }
           ]
         }

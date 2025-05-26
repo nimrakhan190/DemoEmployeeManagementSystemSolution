@@ -1120,10 +1120,6 @@ C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\927plkmk2o-tptq2av103.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\fv852almvh-lfu7j35m59.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ga4tohpf6k-oyz0vx2fzb.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\3ucl1dmfga-a79e9tfthy.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ukduhg43tv-mzyrd0g1y1.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\emid24cbep-s7yf4kp6xy.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\bjjxs8ewny-3wkh0jscqo.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\staticwebassets.development.json
@@ -1134,6 +1130,10 @@ C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\refint\Client.dll
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\ref\Client.dll
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\kb90l4x90i-lb4ueaf2sp.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-ljtl9ar497.gz
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-7kwn4j8dlu.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\3ucl1dmfga-hp2rjfx0dw.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ukduhg43tv-j6xsm79ndh.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\emid24cbep-5tlsbu4jtl.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\bjjxs8ewny-25bdl4csig.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\kb90l4x90i-4y7kc8zbv5.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-jmdvlusjjt.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-rllde9toaf.gz

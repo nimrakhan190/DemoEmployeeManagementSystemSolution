@@ -13,77 +13,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Client
 build_property.RootNamespace = Client
-build_property.ProjectDir = C:\Users\slabq\Source\Repos\DemoEmployeeManagementSystemSolution\Client\
+build_property.ProjectDir = C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\slabq\Source\Repos\DemoEmployeeManagementSystemSolution\Client
+build_property.MSBuildProjectDirectory = C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/App.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Layout/AuthenticationLayout.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Layout/AuthenticationLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEF1dGhlbnRpY2F0aW9uTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/AccountPages/LoginPage.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/AccountPages/LoginPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFBhZ2VzXExvZ2luUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/AccountPages/RegisterPage.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/AccountPages/RegisterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFBhZ2VzXFJlZ2lzdGVyUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/AdministrationPages/TableBanner.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/AdministrationPages/TableBanner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25QYWdlc1xUYWJsZUJhbm5lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/AuthenticationPage.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/AuthenticationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/ContentPages/HomePage.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/ContentPages/HomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VzXEhvbWVQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/Counter.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/DepartmentPages/GeneralDepartmentPage.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/DepartmentPages/GeneralDepartmentPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFBhZ2VzXEdlbmVyYWxEZXBhcnRtZW50UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/OtherPages/ButtonLoadingSpinner.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/OtherPages/ButtonLoadingSpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJQYWdlc1xCdXR0b25Mb2FkaW5nU3Bpbm5lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/OtherPages/ProfileDropDown.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/OtherPages/ProfileDropDown.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJQYWdlc1xQcm9maWxlRHJvcERvd24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/Weather.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/_Imports.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/_Imports.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Layout/MainLayout.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-tmopy668it
 
-[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Layout/NavMenu.razor]
+[C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9qkkwgv1yd

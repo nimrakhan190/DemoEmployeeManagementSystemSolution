@@ -1,35 +1,34 @@
 ﻿@inherits LayoutComponentBase
-@using Microsoft.AspNetCore.Components   
+@using Microsoft.AspNetCore.Components   
 @using Microsoft.AspNetCore.Authorization
-@inject NavigationManager NavManager  
+@inject NavigationManager NavManager  
 @inject AuthenticationStateProvider AuthStateProvider
-@inherits LayoutComponentBase
 @attribute [Authorize]
 
- 
-<div class="page">  
-    <div class="sidebar">
-        <NavMenu />
-    </div>  
+ 
+<div class="page">  
+    <div class="sidebar">
+        <NavMenu />
+    </div>  
 
-    <main>  
-        <div class="top-row px-4">  
-            <ProfileDrowpDown></ProfileDrowpDown>        
-        </div>  
+    <main>  
+        <div class="top-row px-4">  
+            <ProfileDrowpDown></ProfileDrowpDown>        
+        </div>  
 
-        <article class="content px-4">  
-            @Body  
-        </article>  
-    </main>  
-</div>  
+        <article class="content px-4">  
+            @Body  
+        </article>  
+    </main>  
+</div>  
 <Syncfusion.Blazor.Popups.SfDialogProvider />
 
-@code {  
-    async Task LogoutClicked()  
-    {  
-        var logoutModel = new UserSession();  
-        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;  
-        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);  
-        NavManager.NavigateTo("/", forceLoad: true);  
-    }  
+@code {  
+    async Task LogoutClicked()  
+    {  
+        var logoutModel = new UserSession();  
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;  
+        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);  
+        NavManager.NavigateTo("/", forceLoad: true);  
+    }  
 }

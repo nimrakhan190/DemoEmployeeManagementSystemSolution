@@ -1,4 +1,5 @@
-﻿<h3>GeneralDepartmentPages</h3>
+﻿@using Client.ApplicationStates
+<h3>GeneralDepartmentPages</h3>
 @implements IDisposable
 @inject DepartmentState departmentState
 
@@ -49,4 +50,16 @@
 			</div>
 		</div>
 	</div>
+}
+
+@code {
+    private Task OpenDialog(MouseEventArgs args)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Dispose()
+    {
+        // Add cleanup logic here if necessary
+    }
 }

@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Entities
 {
-    public class GeneralDepartment : BaseEntity
+    internal class Vacation
     {
-        public List<Department>? Departments { get; set; }
     }
 }

@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Entities
 {
-    public class GeneralDepartment : BaseEntity
+    public class SanctionType
     {
-        public List<Department>? Departments { get; set; }
+
+        //Many to one relationship with vacation
+
+        public List<Sanction>? Sactions { get; set; }
+
+
     }
 }

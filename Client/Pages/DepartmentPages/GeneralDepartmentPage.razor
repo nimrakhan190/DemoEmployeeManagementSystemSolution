@@ -1,4 +1,6 @@
-﻿<h3>GeneralDepartmentPages</h3>
+﻿@using BaseLibrary.Entities
+@using Client.ApplicationStates
+<h3>GeneralDepartmentPages</h3>
 @implements IDisposable
 @inject DepartmentState departmentState
 
@@ -49,4 +51,24 @@
 			</div>
 		</div>
 	</div>
+}
+<GeneralDepartmentDialog @ref="generalDepartmentDialog"/>
+@code{
+	GeneralDepartmentDialog? generalDepartmentDialog;
+	GeneralDepartment Department = new();
+
+	protected override void OnInitialized()
+	{
+		departmentState.GeneralDepartmentAction += StateHasChanged;
+	}
+
+	void OpenDialog()
+	{
+		generalDepartmentDialog?.OpenDialog();
+	}
+
+	public void Dispose()
+	{
+		departmentState.GeneralDepartmentAction -= StateHasChanged;
+	}
 }

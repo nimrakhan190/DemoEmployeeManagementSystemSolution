@@ -56,7 +56,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/PMLS/source/repos/DemoEmployeeManagementSystemSolution/Client/Pages/DepartmentPages/GeneralDepartmentPage.razor]
+=======
+[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/DepartmentPages/GeneralDepartmentDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFBhZ2VzXEdlbmVyYWxEZXBhcnRtZW50RGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/slabq/Source/Repos/DemoEmployeeManagementSystemSolution/Client/Pages/DepartmentPages/GeneralDepartmentPage.razor]
+>>>>>>> 45a8f09 (Changes from 4:00 until 4:47)
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFBhZ2VzXEdlbmVyYWxEZXBhcnRtZW50UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 

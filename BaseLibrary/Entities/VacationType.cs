@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Entities
 {
-    public class GeneralDepartment : BaseEntity
+    public class VacationType : BaseEntity
     {
-        public List<Department>? Departments { get; set; }
+        //Many to one relationship with vacation
+
+        public List<Vacation>? vacations {  get; set; }
     }
 }

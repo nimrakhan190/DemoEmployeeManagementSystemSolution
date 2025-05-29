@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Entities
 {
-    public class GeneralDepartment : BaseEntity
+    public class OvertimeType : BaseEntity
     {
-        public List<Department>? Departments { get; set; }
     }
 }

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿@using Client.ApplicationStates
+=======
+﻿@using BaseLibrary.Entities
+@using Client.ApplicationStates
+>>>>>>> 45a8f09 (Changes from 4:00 until 4:47)
 <h3>GeneralDepartmentPages</h3>
 @implements IDisposable
 @inject DepartmentState departmentState
@@ -51,6 +56,7 @@
 		</div>
 	</div>
 }
+<<<<<<< HEAD
 
 @code {
     private Task OpenDialog(MouseEventArgs args)
@@ -62,4 +68,25 @@
     {
         // Add cleanup logic here if necessary
     }
+=======
+<GeneralDepartmentDialog @ref="generalDepartmentDialog"/>
+@code{
+	GeneralDepartmentDialog? generalDepartmentDialog;
+	GeneralDepartment Department = new();
+
+	protected override void OnInitialized()
+	{
+		departmentState.GeneralDepartmentAction += StateHasChanged;
+	}
+
+	void OpenDialog()
+	{
+		generalDepartmentDialog?.OpenDialog();
+	}
+
+	public void Dispose()
+	{
+		departmentState.GeneralDepartmentAction -= StateHasChanged;
+	}
+>>>>>>> 45a8f09 (Changes from 4:00 until 4:47)
 }

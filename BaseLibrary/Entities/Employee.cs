@@ -1,6 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-
+﻿using System.ComponentModel.DataAnnotations;
 namespace BaseLibrary.Entities
 {
     public class Employee : BaseEntity
@@ -23,9 +21,10 @@ namespace BaseLibrary.Entities
         public string? Other { get; set; }
 
 
-        //Many to one relatioship with branch
+        //Many to one relationship with branch
         public Branch? Branch { get; set; }
         public int BranchId { get; set; }
+
         public Town? Town { get; set; }
         public int TownId { get; set; }
         

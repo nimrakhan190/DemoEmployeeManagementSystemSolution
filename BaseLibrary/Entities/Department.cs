@@ -12,7 +12,7 @@ namespace BaseLibrary.Entities
 
         //one to many relationship with branch
 
-        public List<Branch> Branches { get; set; }
+        public List<Branch>? Branches { get; set; }
 
     }
 }

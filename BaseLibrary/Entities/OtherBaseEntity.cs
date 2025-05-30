@@ -1,7 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-
-
+﻿using System.ComponentModel.DataAnnotations;
 namespace BaseLibrary.Entities
 {
     public class OtherBaseEntity
@@ -13,7 +10,7 @@ namespace BaseLibrary.Entities
         public string CivilId { get; set; } = string.Empty;
         [Required]
 
-        public string FileNumber {  get; set; }
+        public string? FileNumber {  get; set; }
 
         public string? Other {  get; set; }
     }

@@ -1,6 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+
+
+using System.ComponentModel.DataAnnotations;
+
 namespace BaseLibrary.Entities
 {
+
     public class Vacation : OtherBaseEntity
     {
         [Required]
@@ -12,5 +16,6 @@ namespace BaseLibrary.Entities
         public VacationType? VacationType { get; set; }
         [Required]
         public int VacationTypeId { get; set; }
+
     }
 }

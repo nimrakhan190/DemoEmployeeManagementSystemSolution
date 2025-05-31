@@ -8,7 +8,6 @@ namespace BaseLibrary.Entities
     {
 
         [Required]
-
         public DateTime StartDate { get; set; }
         [Required]
 

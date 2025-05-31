@@ -78,7 +78,7 @@
 </AuthorizeView>
 
 @code {
-    private bool collapseNavMenu = true;
+    private bool collapseNavMenu = false;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
@@ -99,7 +99,8 @@
             DepartmentMargin = "0";
             CssStyle = "visibility";
         }
-        else{
+        else
+        {
             DepartmentMargin = "-3.5rem";
             CssStyle = "hidden";
         }

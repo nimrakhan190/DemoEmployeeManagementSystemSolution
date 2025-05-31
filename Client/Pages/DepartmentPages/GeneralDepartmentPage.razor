@@ -1,5 +1,10 @@
+
+﻿@using Client.ApplicationStates
 ﻿@using BaseLibrary.Entities
 @using Client.ApplicationStates
+﻿@using BaseLibrary.Entities
+@using Client.ApplicationStates
+
 <h3>GeneralDepartmentPages</h3>
 @implements IDisposable
 @inject DepartmentState departmentState
@@ -52,7 +57,10 @@
 		</div>
 	</div>
 }
+
+
 <GeneralDepartmentDialog @ref="generalDepartmentDialog"/>
+
 @code{
 	GeneralDepartmentDialog? generalDepartmentDialog;
 	GeneralDepartment Department = new();

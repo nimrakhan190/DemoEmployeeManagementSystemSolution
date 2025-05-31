@@ -40,7 +40,8 @@ namespace ServerLibrary.Repositories.Implementations
         private static GeneralResponse NotFound() => new(false, "Sorry department not found");
         private static GeneralResponse Success() => new(true, "Process completed");
         private async Task Commit() => await appDbContext.SaveChangesAsync();
-        private async Task<bool> CheckName(string name) {
+        private async Task<bool> CheckName(string name) 
+        {
             var item = await appDbContext.Departments.FirstOrDefaultAsync(x => x.Name!.ToLower().Equals(name.ToLower()));
             return item is null;
         }

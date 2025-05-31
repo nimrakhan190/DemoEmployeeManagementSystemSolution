@@ -13,7 +13,7 @@ namespace BaseLibrary.DTOs
 
         public string? Email { get; set; }
         [DataType(DataType.Password)]
-           [Required]
+        [Required]
 
        public string? Password { get; set; }
     }

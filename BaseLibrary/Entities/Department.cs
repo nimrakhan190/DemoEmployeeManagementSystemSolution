@@ -14,5 +14,6 @@ namespace BaseLibrary.Entities
 
         public List<Branch>? Branches { get; set; }
 
+
     }
 }

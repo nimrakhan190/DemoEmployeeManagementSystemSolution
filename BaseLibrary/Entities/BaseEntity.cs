@@ -1,6 +1,6 @@
-﻿
-using System.ComponentModel.DataAnnotations;
 
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace BaseLibrary.Entities
 {
@@ -8,7 +8,9 @@ namespace BaseLibrary.Entities
     {
         public int Id { get; set; }
         [Required]
-        public string? Name { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+
+      
 
     }
 }

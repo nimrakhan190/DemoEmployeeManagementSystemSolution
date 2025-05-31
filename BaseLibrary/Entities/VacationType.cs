@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace BaseLibrary.Entities
     {
         //Many to one relationship with vacation
 
-        public List<Vacation>? vacations {  get; set; }
+        public List<Vacation>? Vacations {  get; set; }
     }
 }

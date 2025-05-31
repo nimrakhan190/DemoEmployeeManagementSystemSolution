@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-
+using System.ComponentModel.DataAnnotations;
 namespace BaseLibrary.Entities
 {
     public class Sanction : OtherBaseEntity
@@ -19,6 +19,7 @@ namespace BaseLibrary.Entities
 
         //many to one relationship with vacationtype
 
-        public SanctionType SanctionType { get; set; }
+        public SanctionType? SanctionType { get; set; }
+
     }
 }

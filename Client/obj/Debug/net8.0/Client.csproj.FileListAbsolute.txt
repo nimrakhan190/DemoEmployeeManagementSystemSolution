@@ -1130,6 +1130,7 @@ C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\refint\Client.dll
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\ref\Client.dll
+<<<<<<< HEAD
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\3ucl1dmfga-hp2rjfx0dw.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ukduhg43tv-j6xsm79ndh.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\emid24cbep-5tlsbu4jtl.gz
@@ -1137,3 +1138,12 @@ C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\kb90l4x90i-4y7kc8zbv5.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-jmdvlusjjt.gz
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-rllde9toaf.gz
+=======
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\3ucl1dmfga-5p0rqn2odl.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\ukduhg43tv-6pbiznd0mj.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\emid24cbep-g0twuk6dbm.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\bjjxs8ewny-50z1pvj41e.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\kb90l4x90i-7a0gdf2cwr.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-xzk6bczc9w.gz
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-bavmqk555r.gz
+>>>>>>> cbe40c0a58101cc12465be1080fc5b5543b30643

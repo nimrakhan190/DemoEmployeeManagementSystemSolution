@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServerLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bb92c01a910612688664d76069a5053823df008")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97e6f59cc0e76a1e5a0b44789868a06ba45c5f67")]
->>>>>>> 45a8f09 (Changes from 4:00 until 4:47)
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41117572a17520d47d5e55f29bfe636d4251cac4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServerLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServerLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

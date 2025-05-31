@@ -1,11 +1,10 @@
-
 ﻿namespace BaseLibrary.Entities
 
 {
     public class City : BaseEntity
     {
 
-        //Many to one relatioship with Country
+        //Many to one relationship with Country
 
         public Country? Country { get; set; }
 

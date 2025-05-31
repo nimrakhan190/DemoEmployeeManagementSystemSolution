@@ -1,10 +1,7 @@
-﻿
-namespace BaseLibrary.Entities
+﻿namespace BaseLibrary.Entities
 {
     public class Branch : BaseEntity
     {
-
-        //many to one relationship qith department
 
         //many to one relationship with department
 

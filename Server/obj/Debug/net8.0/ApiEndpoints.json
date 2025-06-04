@@ -49,6 +49,22 @@
   },
   {
     "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Branch, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Branch, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Add",
     "RelativePath": "api/Branch/add",
     "HttpMethod": "POST",
@@ -116,6 +132,22 @@
       {
         "Name": "model",
         "Type": "BaseLibrary.Entities.Branch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.City, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/City/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -197,6 +229,22 @@
   },
   {
     "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Country, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Country, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Add",
     "RelativePath": "api/Country/add",
     "HttpMethod": "POST",
@@ -264,6 +312,22 @@
       {
         "Name": "model",
         "Type": "BaseLibrary.Entities.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Department, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Department/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -345,6 +409,22 @@
   },
   {
     "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.GeneralDepartment, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/GeneralDepartment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.GeneralDepartment, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Add",
     "RelativePath": "api/GeneralDepartment/add",
     "HttpMethod": "POST",
@@ -412,6 +492,22 @@
       {
         "Name": "model",
         "Type": "BaseLibrary.Entities.GeneralDepartment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.GenericController\u00601[[BaseLibrary.Entities.Town, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Town/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

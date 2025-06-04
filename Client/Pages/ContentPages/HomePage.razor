@@ -3,6 +3,12 @@
 
 <TableBanner />
 <GeneralDepartmentPage />
+<DepartmentPage />
+<BranchPage />
+<CountryPage/>
+<CityPage/>
+<TownPage/>
+
 @code {
     [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
 
@@ -16,6 +22,8 @@
         var user = (await AuthenticationState).User;
         bool isUserAuthenticated = user.Identity!.IsAuthenticated;
         if(!isUserAuthenticated)
-        NavManager.NavigateTo("/identity/account/login");
+        {
+            NavManager.NavigateTo("/identity/account/login");
+        }
     }
 }

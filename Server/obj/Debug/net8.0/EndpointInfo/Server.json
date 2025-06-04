@@ -110,6 +110,29 @@
         }
       }
     },
+    "/api/Branch/{id}": {
+      "delete": {
+        "tags": [
+          "Branch"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Branch/delete/{id}": {
       "delete": {
         "tags": [
@@ -222,6 +245,29 @@
       "get": {
         "tags": [
           "City"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/City/{id}": {
+      "delete": {
+        "tags": [
+          "City"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -350,6 +396,29 @@
         }
       }
     },
+    "/api/Country/{id}": {
+      "delete": {
+        "tags": [
+          "Country"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Country/delete/{id}": {
       "delete": {
         "tags": [
@@ -462,6 +531,29 @@
       "get": {
         "tags": [
           "Department"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/{id}": {
+      "delete": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -590,6 +682,29 @@
         }
       }
     },
+    "/api/GeneralDepartment/{id}": {
+      "delete": {
+        "tags": [
+          "GeneralDepartment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/GeneralDepartment/delete/{id}": {
       "delete": {
         "tags": [
@@ -702,6 +817,29 @@
       "get": {
         "tags": [
           "Town"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Town/{id}": {
+      "delete": {
+        "tags": [
+          "Town"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -880,13 +1018,6 @@
           "departmentId": {
             "type": "integer",
             "format": "int32"
-          },
-          "employees": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Employee"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -911,13 +1042,6 @@
           "countryId": {
             "type": "integer",
             "format": "int32"
-          },
-          "towns": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Town"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -935,13 +1059,6 @@
           "name": {
             "minLength": 1,
             "type": "string"
-          },
-          "cities": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/City"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -966,84 +1083,6 @@
           "generalDepartmentId": {
             "type": "integer",
             "format": "int32"
-          },
-          "branches": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Branch"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Employee": {
-        "required": [
-          "address",
-          "civilId",
-          "fileNumber",
-          "fullname",
-          "jobName",
-          "name",
-          "photo",
-          "telephoneNumber"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "civilId": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "fileNumber": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "fullname": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "jobName": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "address": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "telephoneNumber": {
-            "minLength": 1,
-            "type": "string",
-            "format": "tel"
-          },
-          "photo": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "other": {
-            "type": "string",
-            "nullable": true
-          },
-          "branch": {
-            "$ref": "#/components/schemas/Branch"
-          },
-          "branchId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "town": {
-            "$ref": "#/components/schemas/Town"
-          },
-          "townId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1061,13 +1100,6 @@
           "name": {
             "minLength": 1,
             "type": "string"
-          },
-          "departments": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Department"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1147,13 +1179,6 @@
           "name": {
             "minLength": 1,
             "type": "string"
-          },
-          "employees": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Employee"
-            },
-            "nullable": true
           },
           "city": {
             "$ref": "#/components/schemas/City"

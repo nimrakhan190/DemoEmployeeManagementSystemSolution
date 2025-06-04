@@ -150,5 +150,38 @@ namespace ServerLibrary.Repositories.Implementations
             await appDbContext.SaveChangesAsync();
             return new LoginResponse(true, "Token refreshed successfully", jwtToken, refreshToken);
         }
+
+        public async Task<List<ManageUser>> GetUsers()
+        {
+            var allUsers = await GetApplicationUsers();
+            var allUserRoles = await UserRoles();
+            var allRoles = await SystemRoles();
+
+            if (allUsers.Count == 0 || allRoles.Count == 0) return null!;
+
+            var users = new List<ManageUser>();
+            foreach (var user in allUsers)
+            {
+                var userRole = allUserRoles.FirstOrDefault(u => u.UserId == user.Id);
+                var roleName = allRoles.FirstOrDefault(u => u.Id == userRole!.RoleId);
+                users.Add(new ManageUser() { UserId = user.Id, Name = user.Fullname!, Email = user.Email!, Role = roleName!.Name! });
+            }
+            return users;
+        }
+
+        public Task<GeneralResponse> UpdateUser(ManageUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<SystemRole>> GetRoles()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GeneralResponse> DeleteUser(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

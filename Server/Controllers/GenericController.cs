@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using ServerLibrary.Repositories.Contracts;
 
@@ -9,9 +9,11 @@ namespace Server.Controllers
     public class GenericController<T>(IGenericRepositoryInterface<T> genericRepositoryInterface) : 
         Controller where T : class
     {
+
         [HttpGet("all")]
         public async Task<IActionResult> GetAll() => Ok(await genericRepositoryInterface.GetAll());
 
+        [HttpDelete("{id}")]
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {

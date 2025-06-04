@@ -1,81 +1,89 @@
-﻿<SfDialog Width="280px IsModal="true" ShowCloseIcon="true" @bind-value="IsVisible">
-	<DialogEvents OnOpen="OpenDialog"> </DialogEvents>
-	<DialogTemplates>
-		<Header> @Title Department</Header>
-		<Content>
-			<EditForm Model="Department" Enhance OnSubmit="Save">
-				<div class="card border-success">
-					<div class="card-body">
-						<label class="form-label">Id</label>
-						<input @bind="Department.Id" class="form-control" disabled />
-					</div>
-					<div class="form-group">
-						<label class="form-label">Name</label>
-						<InputText @bind-value="Department.Name" class="form-control"/>
-					</div>
-					<div class="form-group mt-3 mb-3">
-						<label class=" form-label">Select General Department</label>
-
-
-
-						@if (Department.GeneralDepartment != null)
-						{
-							string selected = Department.GeneralDepartment!.Name;
-							<SfDropDownList TValue="string" TItem ="GeneralDepartment" Placeholder="@selected" DataSource =" GeneralDepartment"
-								<DropDownListFieldSettings Value="Name"></DropDownListFieldSettings> 
-								<DropDownListFieldSettings TValue="string" TItem="GeneralDepartment" ValueChange="OnValueChange"></DropDownListFieldSettings>
-							</SfDropDownList>
-						}
-						else
-						{
-							<SfDownList TValue="string" TItem="GeneralDepartment" Placeholder="Select General Department" DataSource="GeneralDepartments"></SfDownList>
-								<DropDownListFieldSettings Value="Id" Text="Name"></DropDownListFieldSettings>
-								<DropDownListEvents TValue="string" TItem="GeneralDepartment" ValueChange="OnValueChange"></DropDownListEvents>
-						}
-					</div>
-				</div>
-			</EditForm>
-		</Content>
-	</DialogTemplates>
-
-	<DialogButtons>
-		<DialogButton Content="SAVE" Type="ButtonType.Submit" IsPrimary="true" OnClick="Save"/>
-	</DialogButtons>
-
+﻿
+<SfDialog Width="350px" IsModal="true" ShowCloseIcon="true" Visible="@IsVisible" VisibleChanged="@OnVisibleChanged">
+    
+    <DialogTemplates>
+        <Header> @Title Department </Header>
+        <Content>
+            <EditForm Model="Department" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <div class="card border-success">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">Id</label>
+                            <InputNumber @bind-Value="Department.Id" class="form-control" disabled />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <InputText @bind-Value="Department.Name" class="form-control" />
+                            <ValidationMessage For="@(() => Department.Name)" />
+                        </div>
+                        <div class="form-group mt-3 mb-3">
+                            <label class="form-label">General Department</label>
+                            <SfDropDownList TValue="int" TItem="GeneralDepartment"
+                                            DataSource="GeneralDepartments"
+                                            @bind-Value="Department.GeneralDepartmentId">
+                                <DropDownListFieldSettings Value="Id" Text="Name" />
+                            </SfDropDownList>
+                            <ValidationMessage For="@(() => Department.GeneralDepartmentId)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="float-end">
+                    <button type="button" class="btn btn-secondary me-2" @onclick="CloseDialog">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </EditForm>
+        </Content>
+    </DialogTemplates>
 </SfDialog>
 
 @code {
+    [Parameter]
+    public Department Department { get; set; } = null;
 
-	[Parameter] public Department Department { get; set; } = new();
-	[Parameter] public List<GeneralDepartment> GeneralDepartments { get; set; } = new();
-	[Parameter] public EventCallback<Department> HandleSaveOperationEvent { get; set; } = new();
+    [Parameter]
+    public List<GeneralDepartment> GeneralDepartments { get; set; } = new();
 
-	private bool IsVisible { get; set; } = false;
-	public string Title { get; set; } = "Add";
-	private async void Save()
-	{
-		if (string.IsNullOrEmpty(Department.Name) || Department.GeneralDepartmentId <= 0)
-			await dialogService.AlertAsync("You need to provide Department name.", "Alert!");
-		else
-			await HandleSaveOperationEvent.InvokeAsync(Department);
-	}
+    [Parameter]
+    public EventCallback<Department> HandleSaveOperationEvent { get; set; }
 
-	public void OpenDialog()
-	{
-		IsVisible = true;
-		StateHasChanged();
-	}
+    private bool IsVisible { get; set; }
 
-	public void ChangeTitle(string title)
-	{
-		Title = title;
-	}
+    public string Title { get; set; } = "Add";
 
-	public void OnValueChange(ChangeEventArgs<string, GeneralDepartment> args)
-	{
-		Department.GeneralDepartmentId = int.Parse(args.Value);
-	}
+    private async Task HandleValidSubmit()
+    {
+        await HandleSaveOperationEvent.InvokeAsync(Department);
+        CloseDialog();
+    }
+
+    public void OpenDialog()
+    {
+        IsVisible = true;
+        StateHasChanged();
+    }
+
+    public void CloseDialog()
+    {
+        IsVisible = false;
+        StateHasChanged();
+    }
+
+    public void ChangeTitle(string title)
+    {
+        Title = title;
+        StateHasChanged();
+    }
 
 
+    public void OnValueChange(ChangeEventArgs<int, GeneralDepartment> args)
+    {
+        Department.GeneralDepartmentId = args.Value;
+    }
 
+    private void OnVisibleChanged(bool visible)
+    {
+        IsVisible = visible;
+        StateHasChanged();
+    }
 }

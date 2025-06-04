@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Syncfusion.Blazor;
 using Syncfusion.Blazor.Popups;
 
+//Register Syncfusion license
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NNaF1cWGhIfEx1RHxQdld5ZFRHallYTnNWUj0eQnxTdEBjX39ccH1URGNeVkZ/W0lfag==");
+
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
@@ -48,3 +51,4 @@ builder.Services.AddSyncfusionBlazor();
 builder.Services.AddScoped<SfDialogService>();
 
 await builder.Build().RunAsync();
+

@@ -138,10 +138,10 @@ C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.csproj.Up2Date
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.dll
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\refint\Server.dll
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\PMLS\source\repos\DemoEmployeeManagementSystemSolution\Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

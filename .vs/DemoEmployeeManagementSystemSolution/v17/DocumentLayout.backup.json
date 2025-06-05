@@ -1,46 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79DB364-C9CE-4FD5-902C-1AD972D7D531}|ClientLibrary\\ClientLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\clientlibrary\\services\\contracts\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79DB364-C9CE-4FD5-902C-1AD972D7D531}|ClientLibrary\\ClientLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\clientlibrary\\services\\contracts\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79DB364-C9CE-4FD5-902C-1AD972D7D531}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\services\\contracts\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79DB364-C9CE-4FD5-902C-1AD972D7D531}|ClientLibrary\\ClientLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\clientlibrary\\services\\implementations\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79DB364-C9CE-4FD5-902C-1AD972D7D531}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\services\\implementations\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB0C7D8-2227-4450-8FBB-3D0E370F8F40}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\employeepages\\addorupdateemployeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\employeepages\\addorupdateemployeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\userpages\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\userpages\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\userpages\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\locationpages\\townpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\locationpages\\townpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\userpages\\userdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\userpages\\userdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\baselibrary\\dtos\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F1EF2E7-6920-43AE-8C7C-D16497494DE1}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|c:\\users\\slabq\\source\\repos\\demoemployeemanagementsystemsolution\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33EB23-079A-43CE-AA15-3873450C7209}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,131 +51,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAwKYAAACCAAAAAAAAAA==",
+              "Title": "IUserAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "RelativeToolTip": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T10:53:06.495Z",
+              "WhenOpened": "2025-06-05T18:17:32.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IUserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "RelativeToolTip": "ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T10:52:00.38Z",
+              "WhenOpened": "2025-06-05T18:17:22.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\UserAccountService.cs",
-              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Implementations\\UserAccountService.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Implementations\\UserAccountService.cs",
-              "RelativeToolTip": "ClientLibrary\\Services\\Implementations\\UserAccountService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T10:41:30.077Z",
+              "Title": "EmployeePage.razor",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\EmployeePages\\EmployeePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\EmployeePages\\EmployeePage.razor",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\EmployeePages\\EmployeePage.razor",
+              "RelativeToolTip": "Client\\Pages\\EmployeePages\\EmployeePage.razor",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T17:28:28.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
-              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
-              "RelativeToolTip": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T10:37:56.455Z",
+              "Title": "AddOrUpdateEmployeePage.razor",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\EmployeePages\\AddOrUpdateEmployeePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\EmployeePages\\AddOrUpdateEmployeePage.razor",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\EmployeePages\\AddOrUpdateEmployeePage.razor",
+              "RelativeToolTip": "Client\\Pages\\EmployeePages\\AddOrUpdateEmployeePage.razor",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAPYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:05:41.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\_Imports.razor",
-              "RelativeDocumentMoniker": "Client\\_Imports.razor",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\_Imports.razor",
-              "RelativeToolTip": "Client\\_Imports.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserPage.razor",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T10:37:28.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T17:27:40.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserPage.razor",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\UserPages\\UserPage.razor",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAuwHwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T10:20:16.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageUser.cs",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\ManageUser.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\ManageUser.cs",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\DTOs\\ManageUser.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\ManageUser.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAgAAAAWAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T10:02:19.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserDialog.razor",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserDialog.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\UserPages\\UserDialog.razor",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\UserPages\\UserDialog.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\UserPages\\UserDialog.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T09:00:44.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TownPage.razor",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\LocationPages\\TownPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\LocationPages\\TownPage.razor",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\LocationPages\\TownPage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\LocationPages\\TownPage.razor",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAuwKYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T08:33:22.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomePage.razor",
-              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\HomePage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPages\\HomePage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T07:08:14.399Z"
+              "WhenOpened": "2025-06-05T14:11:02.867Z"
             }
           ]
         }

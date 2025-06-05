@@ -163,25 +163,35 @@ namespace ServerLibrary.Repositories.Implementations
             foreach (var user in allUsers)
             {
                 var userRole = allUserRoles.FirstOrDefault(u => u.UserId == user.Id);
-                var roleName = allRoles.FirstOrDefault(u => u.Id == userRole!.RoleId);
+                var roleName = allRoles.FirstOrDefault(r => r.Id == userRole!.RoleId);
                 users.Add(new ManageUser() { UserId = user.Id, Name = user.Fullname!, Email = user.Email!, Role = roleName!.Name! });
             }
             return users;
         }
 
-        public Task<GeneralResponse> UpdateUser(ManageUser user)
+        public async Task<GeneralResponse> UpdateUser(ManageUser user)
         {
-            throw new NotImplementedException();
+            var getRole = (await SystemRoles()).FirstOrDefault(r => r.Name!.Equals(user.Role));
+            var userRole = await appDbContext.UserRoles.FirstOrDefaultAsync(user => user.UserId == user.UserId);
+            userRole!.RoleId = getRole!.Id;
+            await appDbContext.SaveChangesAsync();
+            return new GeneralResponse(true, "User role updated successfully");
         }
 
-        public Task<List<SystemRole>> GetRoles()
+        public async Task<List<SystemRole>> GetRoles() => await SystemRoles();
+
+        public async Task<GeneralResponse> DeleteUser(int id)
         {
-            throw new NotImplementedException();
+            var user = await appDbContext.ApplicationUsers.FirstOrDefaultAsync(u => u.Id == id);
+            appDbContext.ApplicationUsers.Remove(user);
+            return new GeneralResponse(true, "User successfully deleted");
         }
 
-        public Task<GeneralResponse> DeleteUser(int id)
-        {
-            throw new NotImplementedException();
-        }
+        private async Task<List<SystemRole>> SystemRoles() => await appDbContext.SystemRoles.AsNoTracking().ToListAsync();
+        private async Task<List<UserRole>> UserRoles() => await appDbContext.UserRoles.AsNoTracking().ToListAsync();
+        private async Task<List<ApplicationUser>> GetApplicationUsers() => await appDbContext.ApplicationUsers.AsNoTracking().ToListAsync();
+
+
+
     }
 }

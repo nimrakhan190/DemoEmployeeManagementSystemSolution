@@ -24,16 +24,17 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @if (Towns is not null)
+                                    @if (ManageUsers is not null)
                                     {
                                         int count = 1;
-                                        foreach (var item in Towns)
+                                        foreach (var item in ManageUsers)
                                         {
                                             <tr>
                                                 <th scope="row">@count</th>
-                                                <td>@item.Id</td>
-                                                <td>@item.City!.Name</td>
+                                                <td>@item.UserId</td>
                                                 <td>@item.Name</td>
+                                                <td>@item.Email</td>
+                                                <td>@item.Role</td>
                                                 <td>
                                                     <i class="bi bi-pencil text-info" id="cursorStyle" @onclick="() => EditClicked(item)"></i>
                                                     <i class="bi bi-trash text-danger" id="cursorStyle" @onclick="() => DeleteClicked(item)"></i>
@@ -64,10 +65,10 @@
         cursor: pointer;
     }
 </style>
-<TownDialog @ref="townDialog"
-            HandleSaveOperationEvent="HandleSaveOperationEvent"
-            Town="Town"
-            Cities="Cities" />
+<UserDialog @ref="userDialog"
+            ManageUser="ManageUser"
+            SystemRoles="SystemRoles"
+            HandleSaveOperationEvent="HandleSaveOperationEvent"/>
 
 @code {
     UserDialog? userDialog;

@@ -1,6 +1,4 @@
 ﻿@implements IDisposable
-
-
 @if (allState.ShowEmployee)
 {
 	if (ShowMainPage)
@@ -11,8 +9,8 @@
 					<div class="card">
 						<div class="card-header">
 							<button class="btn btn-outline-success" @onclick="ShowAddOrUpdateEmployeeButtonClicked">
-								<i class="bi bi-plus-circle-dotted"></i>Add Employee</button></div>
-							<h5 class="card-title">Employee List</h5>
+								<i class="bi bi-plus-circle-dotted me-2"></i>Add Employee</button></div>
+							<h5 class="card-title"> Employee List</h5>
 						<div class="card-body">
 							<SfGrid DataSource="@Employees">
 								<GridColumns>
@@ -22,7 +20,7 @@
 												var employee = (context as Employee);
 											}
 											<div class="image">
-												<img src="@employee?.Photo" alt="@employee?.Name" width="150" height="150" />
+												<img src="@employee!.Photo" alt="@employee.Name" width="150" height="150" />
 											</div>
 										</Template>
 									</GridColumn>

@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 
 namespace BaseLibrary.DTOs
@@ -13,7 +12,7 @@ namespace BaseLibrary.DTOs
 
         [Required, Range(1, 99999, ErrorMessage = "You must select branch")]
 
-        public int BrnachId { get; set; }
+        public int BranchId { get; set; }
         [Required, Range(1, 99999, ErrorMessage = "You must select town")]
 
         public int TownId { get; set; }

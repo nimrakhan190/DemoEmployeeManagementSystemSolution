@@ -8,7 +8,6 @@ using ServerLibrary.Data;
 using ServerLibrary.Helpers;
 using ServerLibrary.Repositories.Contracts;
 using System.IdentityModel.Tokens.Jwt;
-using System.Net.Http;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -117,8 +116,9 @@ namespace ServerLibrary.Repositories.Implementations
         private async Task<UserRole> FindUserRole(int userId) => await appDbContext.UserRoles.FirstOrDefaultAsync(_ => _.UserId == userId);
         private async Task<SystemRole> FindRoleName(int roleId) => await appDbContext.SystemRoles.FirstOrDefaultAsync(_ => _.Id == roleId);
         private static string GenerateRefreshToken() => Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
-        private async Task<ApplicationUser> FindUserByEmail(string email) =>
-            await appDbContext.ApplicationUsers.FirstOrDefaultAsync(_ => _.Email!.ToLower()!.Equals(email!.ToLower()));
+        private async Task<ApplicationUser?> FindUserByEmail(string email) =>
+    await appDbContext.ApplicationUsers
+        .FirstOrDefaultAsync(u => u.Email!.ToLower() == email.ToLower());
 
         private async Task<T> AddToDatabase<T>(T model)
         {
@@ -144,7 +144,7 @@ namespace ServerLibrary.Repositories.Implementations
             string refreshToken = GenerateRefreshToken();
 
             var updateRefreshToken = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.UserId == user.Id);
-            if (updateRefreshToken is null) return new LoginResponse(false, "Refresh token colud not be generated because user has not signed in");
+            if (updateRefreshToken is null) return new LoginResponse(false, "Refresh token could not be generated because user has not signed in");
 
             updateRefreshToken.Token = refreshToken;
             await appDbContext.SaveChangesAsync();

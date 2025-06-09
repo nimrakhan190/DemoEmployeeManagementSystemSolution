@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\sanctionpages\\sanctiondialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\sanctionpages\\sanctiondialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\sanctionpages\\sanctionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\sanctionpages\\sanctionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\contentpages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\employeepages\\employeepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\overtimepages\\overtimepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\overtimepages\\overtimepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\overtimepages\\overtimetypepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\overtimepages\\overtimetypepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\overtimepages\\overtimetypedialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\overtimepages\\overtimetypedialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|c:\\users\\pmls\\source\\repos\\demoemployeemanagementsystemsolution\\client\\pages\\otherpages\\overtimepages\\overtimedialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1982D98-84DD-4438-8920-5B5C371EAF67}|Client\\Client.csproj|solutionrelative:client\\pages\\otherpages\\overtimepages\\overtimedialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +51,94 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SanctionPage.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\SanctionPages\\SanctionPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\SanctionPages\\SanctionPage.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\SanctionPages\\SanctionPage.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\SanctionPages\\SanctionPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T13:04:20.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanctionDialog.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\SanctionPages\\SanctionDialog.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\SanctionPages\\SanctionDialog.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\SanctionPages\\SanctionDialog.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\SanctionPages\\SanctionDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T13:04:19.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeePage.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\EmployeePages\\EmployeePage.razor",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:55:38.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OvertimeTypePage.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypePage.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypePage.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypePage.razor",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:37:54.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OvertimeTypeDialog.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypeDialog.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypeDialog.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypeDialog.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeTypeDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:37:52.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OvertimePage.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimePage.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimePage.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimePage.razor",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwF4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:37:51.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OvertimeDialog.razor",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeDialog.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeDialog.razor",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Pages\\OtherPages\\OvertimePages\\OvertimeDialog.razor",
+              "RelativeToolTip": "Client\\Pages\\OtherPages\\OvertimePages\\OvertimeDialog.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:37:50.342Z"
             }
           ]
         }

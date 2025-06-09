@@ -14,9 +14,10 @@ namespace BaseLibrary.Entities
 
         public DateTime PunishmentDate { get; set; }
 
-        //many to one relationship with vacationtype
+        //many to one relationship with vacation type
 
         public SanctionType? SanctionType { get; set; }
+        public int SanctionTypeId { get; set; }
 
     }
 }

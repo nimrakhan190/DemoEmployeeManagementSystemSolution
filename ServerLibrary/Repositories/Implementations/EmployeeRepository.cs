@@ -27,6 +27,8 @@ namespace ServerLibrary.Repositories.Implementations
 
         public async Task<List<Employee>> GetAll()
         {
+            Console.WriteLine("DEBUG: Starting to fetch employees...");
+
             var employees = await appDbContext.Employees
                .AsNoTracking()
                .Include(t => t.Town)
@@ -34,9 +36,16 @@ namespace ServerLibrary.Repositories.Implementations
                .ThenInclude(c => c.Country)
                .Include(b => b.Branch)
                .ThenInclude(d => d.Department)
-               .ThenInclude(gd => gd.GeneralDepartment).ToListAsync();
-               return employees;
+               .ThenInclude(gd => gd.GeneralDepartment)
+               .ToListAsync();
 
+            Console.WriteLine($"DEBUG: Found {employees.Count} employees in database");
+            if (employees.Count > 0)
+            {
+                Console.WriteLine($"DEBUG: First employee - {employees[0].Name}, ID: {employees[0].Id}");
+            }
+
+            return employees;
         }
         public async Task<Employee> GetById(int id)
         {
@@ -53,6 +62,7 @@ namespace ServerLibrary.Repositories.Implementations
         public async Task<GeneralResponse> Insert(Employee item)
         {
             if (!await CheckName(item.Name!)) return new GeneralResponse(false, "Employee with this name already exists");
+            appDbContext.Employees.Add(item); // Add this line
             await Commit();
             return Success();
         }

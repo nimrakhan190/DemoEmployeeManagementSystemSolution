@@ -1,0 +1,94 @@
+﻿<SfDialog Width="280px" IsModal="true" ShowCloseIcon="true" @bind-Visible="IsVisible">
+    <DialogEvents OnOpen="OpenDialog" />
+    <DialogTemplates>
+        <Header>@Title Employee's Sanction</Header>
+        <Content>
+            <EditForm Model="ItemModel" Enhance OnSubmit="Save">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">Employee ID</label>
+                            <input class="form-control" @bind="ItemModel.EmployeeId" disabled />
+                        </div>
+                        <div class="form-group mt-2">
+                            <label class="form-label">Occuring Date</label>
+                            <InputDate class="form-control" @bind-Value="ItemModel.Date" />
+                        </div>
+                        <div class="form-group mt-2">
+                            <label class="form-label">Punishment Date</label>
+                            <InputDate class="form-control" @bind-Value="ItemModel.PunishmentDate" />
+                        </div>
+                        <div class="form-group mt-2">
+                            <label class="form-label">Punishment</label>
+                            <InputTextArea class="form-control" @bind-Value="ItemModel.Punishment" />
+                        </div>
+                        <div class="form-group mt-3 mb-3">
+                            <label class="form-label">Select Type</label>
+                            <SfDropDownList TValue="string" TItem="SanctionType"
+                                            Placeholder="Select Type"
+                                            DataSource="SanctionTypes"
+                                            @bind-Value="SelectedTypeId">
+                                <DropDownListFieldSettings Value="Id" Text="Name" />
+                            </SfDropDownList>
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+        </Content>
+    </DialogTemplates>
+
+    <DialogButtons>
+        <DialogButton Content="SAVE" Type="ButtonType.Submit" IsPrimary="true" OnClick="Save"></DialogButton>
+    </DialogButtons>
+</SfDialog>
+
+@code {
+    [Parameter] public Sanction ItemModel { get; set; } = new();
+    [Parameter] public List<SanctionType> SanctionTypes { get; set; } = new();
+    [Parameter] public EventCallback<Sanction> HandleSaveOperationEvent { get; set; }
+
+    public string Title { get; set; } = "Add";
+    private bool IsVisible { get; set; } = false;
+
+    private string SelectedTypeId
+    {
+        get => ItemModel.SanctionTypeId.ToString();
+        set => ItemModel.SanctionTypeId = int.Parse(value);
+    }
+
+    private async void Save()
+    {
+        if (ItemModel.SanctionTypeId <= 0)
+        {
+            await dialogService.AlertAsync("You need to provide type.", "Alert!");
+            return;
+        }
+
+        // Initialize dates if they're default
+        if (ItemModel.Date == default)
+        {
+            ItemModel.Date = DateTime.Now;
+        }
+
+        if (ItemModel.PunishmentDate == default)
+        {
+            ItemModel.PunishmentDate = DateTime.Now;
+        }
+
+        await HandleSaveOperationEvent.InvokeAsync(ItemModel);
+    }
+
+    public void OpenDialog()
+    {
+        IsVisible = true;
+        StateHasChanged();
+    }
+
+    public void CloseDialog()
+    {
+        IsVisible = false;
+        StateHasChanged();
+    }
+
+    public void ChangeTitle(string title) => Title = title;
+}

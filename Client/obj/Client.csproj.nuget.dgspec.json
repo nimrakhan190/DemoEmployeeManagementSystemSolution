@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj": {}
+    "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
+    "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj",
         "projectName": "BaseLibrary",
-        "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj",
-        "packagesPath": "C:\\Users\\PMLS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\obj\\",
+        "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj",
+        "packagesPath": "C:\\Users\\slabq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PMLS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\slabq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,20 +75,20 @@
         }
       }
     },
-    "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
+    "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
         "projectName": "ClientLibrary",
-        "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
-        "packagesPath": "C:\\Users\\PMLS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\obj\\",
+        "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
+        "packagesPath": "C:\\Users\\slabq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PMLS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\slabq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,15 +97,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
-                "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
+              "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
+                "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
               }
             }
           }
@@ -164,20 +162,20 @@
         }
       }
     },
-    "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj": {
+    "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\PMLS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\obj\\",
+        "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\slabq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PMLS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\slabq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,18 +184,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
-                "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
+              "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
+                "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
               },
-              "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
-                "projectPath": "C:\\Users\\PMLS\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj"
+              "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
+                "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj"
               }
             }
           }

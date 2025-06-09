@@ -14,7 +14,11 @@
 							<h5 class="card-title">Employee List</h5>
 						</div>
 						<div class="card-body">
-							<SfGrid DataSource="@Employees">
+							@{
+								var Tool = (new List<string>() { "Search", "ExcelExport", "PdfExport", });
+							}
+							<SfGrid DataSource="@Employees" AllowPaging="true" AllowSorting="true"
+								Toolbar=@Tool AllowExcelExport="true" @ref="DefaultGrid" AllowPdfExport="true">
     <GridTemplates>
         <NoRecords>
             <div class="text-center p-4">
@@ -123,6 +127,7 @@
                 HandleSaveOperationEvent="SaveVacationEvent" />
 
 @code {
+	private SfGrid<Employee>? DefaultGrid;
 	public bool IsLoading { get; set; } = false;
 	AddOrUpdateEmployeePage? addOrUpdateEmployee;
 
@@ -456,6 +461,19 @@
         ShowDetailsPage = false;
         ShowMainPage = true;
     }
+
+	//Excel export / PDF Export
+	public async Task ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs args)
+	{
+		if (args.Item.Text == "Excel Export")
+		{
+			await this.DefaultGrid!.ExcelExport()!;
+		}
+		else if (args.Item.Text == "PDF Export")
+		{
+			await this.DefaultGrid!.PdfExport()!;
+		}
+	}
 
 	//Display message using dialog service
 	private async Task<bool> DisplayMessage(bool flag, string message)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hHO+uGJ0YgY=",
+  "dgSpecHash": "xNEQepDJzz8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
+  "projectFilePath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slabq\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\slabq\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQVjE70+I3Q=",
+  "dgSpecHash": "GaajSRXjXSo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slabq\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\slabq\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

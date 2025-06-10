@@ -4026,9 +4026,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\slabq\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\Client\\obj\\",
       "projectStyle": "PackageReference",
@@ -4051,11 +4051,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
-              "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
+            "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj": {
+              "projectPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\BaseLibrary\\BaseLibrary.csproj"
             },
-            "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
-              "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj"
+            "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj": {
+              "projectPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ClientLibrary\\ClientLibrary.csproj"
             }
           }
         }

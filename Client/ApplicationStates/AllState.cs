@@ -162,6 +162,15 @@
             Action?.Invoke();
         }
 
+        //Show User Profile
+        public void UserProfileClicked()
+        {
+            ResetAllDepartments();
+            ShowUserProfile = true;
+            Action?.Invoke();       
+        }
+        public bool ShowUserProfile { get; set; }
+
         private void ResetAllDepartments()
         {
             ShowGeneralDepartment = false;

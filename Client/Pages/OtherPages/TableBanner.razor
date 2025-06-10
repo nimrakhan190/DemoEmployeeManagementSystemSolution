@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="col-lg-2 cursorStyle">
-            <div class="card border-dark">
+            <div class="card border-dark" @onclick= "DepartmentClicked">
                 <div class="card-header"><i class="bi bi-slack text-dark me-2"></i>Departments
                     <span class="badge bg-dark fs-6"> @Departments.Count</span>
                 </div>
@@ -81,6 +81,7 @@
     void SanctionClicked() => allState.SanctionClicked();
     void VacationClicked() => allState.VacationClicked();
 	void EmployeeClicked() => allState.EmployeeClicked();
+	void DepartmentClicked() => allState.DepartmentClicked();
 
     public void Dispose() => allState.Action -= StateHasChanged;
 }

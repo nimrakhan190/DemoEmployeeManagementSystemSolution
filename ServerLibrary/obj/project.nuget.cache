@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NaNYoFyfneM=",
+  "dgSpecHash": "dXiJPeBJ3Jk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
+  "projectFilePath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slabq\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\slabq\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
@@ -83,9 +83,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "projectPath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
+      "projectPath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\slabq\\Source\\Repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
+      "filePath": "C:\\Users\\slabq\\source\\repos\\DemoEmployeeManagementSystemSolution\\ServerLibrary\\ServerLibrary.csproj",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net8.0"

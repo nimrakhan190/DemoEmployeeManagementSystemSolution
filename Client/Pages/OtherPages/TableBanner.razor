@@ -1,43 +1,51 @@
 ﻿<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-2 cursorStyle">
+    <div class="row g-3">
+        <!-- Added g-3 for gaps between cards -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
+            <!-- Made responsive -->
             <div class="card border-primary" @onclick="EmployeeClicked">
-                <div class="card-header"><i class="bi bi-people text-primary me-2"></i>Employees
+                <div class="card-header">
+                    <i class="bi bi-people text-primary me-2"></i>Employees
                     <span class="badge bg-primary fs-6"> @Employees.Count</span>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 cursorStyle">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
             <div class="card border-success" @onclick="VacationClicked">
-                <div class="card-header"><i class="bi bi-backpack3 text-success me-2"></i>Vacation
+                <div class="card-header">
+                    <i class="bi bi-backpack3 text-success me-2"></i>Vacation
                     <span class="badge bg-success fs-6"> @Vacations.Count</span>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 cursorStyle">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
             <div class="card border-danger" @onclick="OvertimeClicked">
-                <div class="card-header"><i class="bi bi-stopwatch text-danger me-2"></i>Overtime
+                <div class="card-header">
+                    <i class="bi bi-stopwatch text-danger me-2"></i>Overtime
                     <span class="badge bg-danger fs-6"> @Overtimes.Count</span>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 cursorStyle">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
             <div class="card border-warning" @onclick="HealthClicked">
-                <div class="card-header"><i class="bi bi-hospital text-warning me-2"></i>Health
+                <div class="card-header">
+                    <i class="bi bi-hospital text-warning me-2"></i>Health
                     <span class="badge bg-warning fs-6"> @Health.Count</span>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 cursorStyle">
-            <div class="card border-info" @onclick ="SanctionClicked">
-                <div class="card-header"><i class="bi bi-x-octagon text-info me-2"></i>Sanctions
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
+            <div class="card border-info" @onclick="SanctionClicked">
+                <div class="card-header">
+                    <i class="bi bi-x-octagon text-info me-2"></i>Sanctions
                     <span class="badge bg-info fs-6"> @Sanctions.Count</span>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2 cursorStyle">
-            <div class="card border-dark" @onclick= "DepartmentClicked">
-                <div class="card-header"><i class="bi bi-slack text-dark me-2"></i>Departments
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 cursorStyle">
+            <div class="card border-dark" @onclick="DepartmentClicked">
+                <div class="card-header">
+                    <i class="bi bi-slack text-dark me-2"></i>Departments
                     <span class="badge bg-dark fs-6"> @Departments.Count</span>
                 </div>
             </div>
@@ -49,10 +57,19 @@
     .cursorStyle {
         cursor: pointer;
     }
+
+    /* Additional spacing for cards if needed */
+    .card {
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
 </style>
 
-@code{
-
+@code {
     public List<Employee> Employees { get; set; } = new();
     public List<Department> Departments { get; set; } = new();
     public List<Overtime> Overtimes { get; set; } = new();
@@ -80,8 +97,12 @@
     void OvertimeClicked() => allState.OvertimeClicked();
     void SanctionClicked() => allState.SanctionClicked();
     void VacationClicked() => allState.VacationClicked();
-	void EmployeeClicked() => allState.EmployeeClicked();
-	void DepartmentClicked() => allState.DepartmentClicked();
+    void EmployeeClicked() => allState.EmployeeClicked();
 
+    void DepartmentClicked()
+    {
+        allState.DepartmentClicked();
+        StateHasChanged(); // Add this line to force UI update
+    }
     public void Dispose() => allState.Action -= StateHasChanged;
 }

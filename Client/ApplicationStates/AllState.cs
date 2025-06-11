@@ -188,6 +188,7 @@
             ShowSanctionType = false;
             ShowVacation = false;
             ShowVacationType = false;
+            ShowUserProfile = false;
         }
     }
 }

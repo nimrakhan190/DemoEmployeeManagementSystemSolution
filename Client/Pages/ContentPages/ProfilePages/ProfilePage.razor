@@ -114,6 +114,7 @@
             ShowSpinner = false;
             await dialogService.AlertAsync("Profile updated.", "Success");
             userProfileState.ProfileUpdated();
+            LogoutClicked();
         }
 
         ShowSpinner = false;
@@ -137,11 +138,17 @@
         return;
     }
 
+    private async Task LogoutClicked()
+    {
+        var logoutModel = new UserSession();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);
+        NavManager.NavigateTo("/identity/account/login", replace: true, forceLoad: true);
+    }
+
     public void Dispose()
     {
         allState.Action -= StateHasChanged;
         userProfileState.Action -= StateHasChanged;
     }
-
-
-}
+    }

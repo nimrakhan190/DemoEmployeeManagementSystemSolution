@@ -8,7 +8,7 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    
+
     public class AuthenticationController(IUserAccount accountInterface) : ControllerBase
     {
         [HttpPost("register")]
@@ -85,9 +85,10 @@ namespace Server.Controllers
         [Authorize]
         public async Task<IActionResult> UpdateProfile(UserProfile profile)
         {
-           
+
             var result = await accountInterface.UpdateProfile(profile);
             return Ok(result);
 
         }
+    }
 }

@@ -15,7 +15,7 @@ namespace ClientLibrary.Services.Contracts
         Task<List<ManageUser>> GetUsers();
         Task<GeneralResponse> UpdateUser(ManageUser user);
         Task<List<SystemRole>> GetRoles();
-        Task<GeneralResponse> DeleteUser(int id);
+        Task<GeneralResponse> DeleteUser(int id); 
 
     }
 }

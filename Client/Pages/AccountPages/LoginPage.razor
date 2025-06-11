@@ -61,42 +61,73 @@
     public bool ShowLoadingButton { get; set; } = false;
     Login User = new();
 
-    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
-    protected async override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        await CheckUserAuthentication();
+        try
+        {
+            await CheckUserAuthentication();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Authentication check error: {ex.Message}");
+        }
     }
 
     async Task HandleLogin()
     {
-        ShowLoadingButton = true;
-        var result = await accountService.SignInAsync(User);
-        if (result.Flag)
+        try
         {
-            await DisplayDialog(result.Message, "Success");
-            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
-            await customAuthStateProvider.UpdateAuthenticationState(new UserSession() 
-            { Token = result.Token, RefreshToken = result.RefreshToken });
-            NavManager.NavigateTo("/", forceLoad: true);
+            ShowLoadingButton = true;
+            var result = await accountService.SignInAsync(User);
+
+            if (result?.Flag == true)
+            {
+                await DisplayDialog(result.Message ?? "Login successful", "Success");
+                var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+                await customAuthStateProvider.UpdateAuthenticationState(new UserSession()
+                {
+                    Token = result.Token ?? string.Empty,
+                    RefreshToken = result.RefreshToken ?? string.Empty
+                });
+                NavManager.NavigateTo("/", forceLoad: true);
+            }
+            else
+            {
+                await DisplayDialog(result?.Message ?? "Login failed", "Alert!");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            await DisplayDialog(result.Message, " Alert!");
+            await DisplayDialog("An error occurred during login", "Error");
+            Console.WriteLine($"Login error: {ex.Message}");
         }
-        ShowLoadingButton = false;
+        finally
+        {
+            ShowLoadingButton = false;
+        }
     }
+
     private async Task DisplayDialog(string content, string title)
     {
-        await dialogService.AlertAsync(content, title);
+        if (dialogService != null)
+        {
+            await dialogService.AlertAsync(content, title);
+        }
     }
 
     private async Task CheckUserAuthentication()
     {
-        var user = (await AuthenticationState).User;
-        bool isUserAuthenticated = user.Identity!.IsAuthenticated;
-        if (isUserAuthenticated)
+        try
         {
-            NavManager.NavigateTo("/home/dashboard");
+            var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+            if (authState?.User?.Identity?.IsAuthenticated == true)
+            {
+                NavManager.NavigateTo("/home/dashboard");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Authentication check error: {ex.Message}");
         }
     }
 }

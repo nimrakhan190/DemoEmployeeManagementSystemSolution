@@ -85,7 +85,7 @@
         var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
         var user = authState.User;
 
-        Console.WriteLine($"User authenticated: {user.Identity.IsAuthenticated}");
+        Console.WriteLine($"User authenticated: {user.Identity?.IsAuthenticated}");
         Console.WriteLine($"User claims: {string.Join(", ", user.Claims.Select(c => $"{c.Type}={c.Value}"))}");
 
         if (user.IsInRole("Admin"))
@@ -111,9 +111,16 @@
         SystemRoles = await accountService.GetRoles();
     }
 
-    void OpenDialog()
+    private void OpenDialog()
     {
-        userDialog?.OpenDialog();
+        try
+        {
+            userDialog?.OpenDialog();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[ERROR] OpenDialog failed: {ex.Message}");
+        }
     }
 
     private async Task HandleSaveOperationEvent(ManageUser manageUser)
@@ -135,35 +142,79 @@
 
     private void EditClicked(ManageUser user)
     {
-        if (CurrentUserRole != "Admin")
+        try
         {
-            return;
+            Console.WriteLine($"[DEBUG] Edit clicked for user: {user?.UserId}");
+
+            if (CurrentUserRole != "Admin")
+            {
+                Console.WriteLine("[DEBUG] Edit blocked - user is not Admin");
+                return;
+            }
+
+            if (user == null)
+            {
+                Console.WriteLine("[ERROR] Null user passed to EditClicked");
+                return;
+            }
+
+            Console.WriteLine($"[DEBUG] Setting user for editing: {user.UserId} - {user.Name}");
+            ManageUser = new ManageUser // Create new instance to avoid reference issues
+            {
+                UserId = user.UserId,
+                Name = user.Name,
+                Email = user.Email,
+                Role = user.Role
+                // Copy other properties as needed
+            };
+
+            OpenDialog();
+            Console.WriteLine("[DEBUG] Edit dialog opened successfully");
         }
-        ManageUser = user;
-        OpenDialog();
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[ERROR] EditClicked failed: {ex.Message}");
+        }
     }
+
 
     private async Task DeleteClicked(ManageUser user)
     {
-        if (CurrentUserRole != "Admin") return;
-
-        bool confirm = await dialogService.ConfirmAsync($"Are you sure you want to delete {user.Name}?", "Confirm Delete");
-        if (!confirm) return;
-
-        var response = await accountService.DeleteUser(user.UserId);
-
-        // Add proper error handling
-        if (!response.Flag)
+        try
         {
-            await DisplayMessage(false, response.Message);
-            return;
+            if (CurrentUserRole != "Admin") return;
+
+            bool confirm = await dialogService.ConfirmAsync($"Are you sure you want to delete {user.Name}?", "Confirm Delete");
+            if (!confirm) return;
+
+            var response = await accountService.DeleteUser(user.UserId);
+
+            Console.WriteLine($"Deleting user ID: {user.UserId}");
+            Console.WriteLine($"Delete response: {response.Flag}, {response.Message}");
+
+            if (!response.Flag)
+            {
+                await DisplayMessage(false, response.Message);
+                return;
+            }
+
+            // Both approaches work - choose one:
+
+            // OPTION 1: Immediate UI update
+            ManageUsers?.RemoveAll(u => u.UserId == user.UserId);
+            StateHasChanged();
+
+            // OPTION 2: Fresh data fetch
+            // await GetUsers();
+            // StateHasChanged();
+
+            await DisplayMessage(true, $"{user.Name} deleted successfully");
         }
-
-        // Force refresh the user list
-        await GetUsers();
-        StateHasChanged(); // Explicitly refresh UI
-
-        await DisplayMessage(true, $"{user.Name} deleted successfully");
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Delete operation failed: {ex.Message}");
+            await DisplayMessage(false, "An error occurred during deletion");
+        }
     }
 
     private async Task<bool> DisplayMessage(bool flag, string message)

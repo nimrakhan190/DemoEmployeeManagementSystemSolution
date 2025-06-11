@@ -29,6 +29,7 @@
 @using Client.Pages.ContentPages.LocationPages
 @using Client.Pages.ContentPages.DepartmentPages
 @using Client.Pages.OtherPages
+@using Client.Pages.ContentPages.ProfilePages
 
 @inject AuthenticationStateProvider AuthStateProvider
 @inject NavigationManager NavManager
@@ -46,6 +47,7 @@
 @inject IGenericServiceInterface<GeneralDepartment> generalDepartmentService
 @inject IGenericServiceInterface<Department> departmentService
 @inject IGenericServiceInterface<Branch> branchService
+
 
 @*/ Country / City/ Town*@
 @inject IGenericServiceInterface<Country> countryService

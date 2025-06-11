@@ -68,7 +68,6 @@ namespace ClientLibrary.Services.Implementations
             var httpClient = await getHttpClient.GetPrivateHttpClient();
             var result = await httpClient.DeleteAsync($"{AuthUrl}/delete-user/{id}");
             if (!result.IsSuccessStatusCode) return new GeneralResponse(false, "Error occured");
-
             return await result.Content.ReadFromJsonAsync<GeneralResponse>()!;
         }
     }
